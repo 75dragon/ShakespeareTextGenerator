@@ -25,4 +25,4 @@ def generate_text(seed_text, next_words, model, max_sequence_len):
                 break
         seed_text += " " + output_word
     return seed_text.title()
-print ("1. ",generate_text("afar", 20, Pickled_Model, max_sequence_len))
+print ("1. ",generate_text("Then", 20, Pickled_Model, max_sequence_len))
